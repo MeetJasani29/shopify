@@ -1,0 +1,21 @@
+
+.category-card {
+    background-color: rgb(243, 244, 246);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  }
+
+  .category-card a {
+        border: 1px solid transparent;
+        border-radius: 0;
+        text-decoration: none ;
+       padding: 0;
+  }
+  .category-card h6{
+    font-size: 1.125rem;
+    font-weight: 400 !important;
+  }
+  .category-card a:hover{
+    /* border-bottom: 1px solid #0d6dfd70; */
+    text-decoration:underline;
+    color: #0d6efd;
+  }

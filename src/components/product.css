@@ -1,0 +1,84 @@
+
+a{
+    text-decoration: none;
+}
+.card {
+    overflow: hidden;
+    border: 1px solid rgba(156, 156, 156, 0.3); 
+    border-radius: 8px;
+    height: 470px;
+    padding: 0;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card img:hover {
+    transform: scale(1.1); 
+}
+
+.card-body{
+    border-top: 1px solid rgba(156, 156, 156, 0.3);
+    
+}
+.card-body p {
+    margin: 0;
+}
+.card-body .card-title{
+    margin: 5px 0;
+    font-weight: 700;
+    font-size: 17px;
+}
+.card-body .card-title:hover{
+    border-bottom: 1px solid black; 
+}
+.card-rating{
+    margin-top: 7px;
+}
+.card-rating span{
+    margin-left: 7px;
+    color: rgb(75 85 99);
+    font-weight: 600;
+}
+.card-body .card-price{
+    color: rgb(59 130 246 ) !important;
+}
+
+/* banenr */
+
+.banner {
+    width: 100%;
+    background-color: #E3EdF6;
+}
+.banner .banner-img img{
+    width: 100%;
+    height: auto;
+}
+.banner .banner-right-side h2{
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin: 0;
+}
+.banner .banner-right-side h4{
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    margin-bottom: 1rem;
+}
+.banner .banner-right-side button{
+    color: black;
+    background-color: #fff;
+    border: none;
+    padding: 8px 20px;
+    font-weight: 600;
+    transition: all .2s linear;
+    border-radius: 5px;
+}
+.banner .banner-right-side button:hover{
+    color: white;
+    background-color: black;
+}

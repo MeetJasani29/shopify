@@ -1,0 +1,68 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.hero{
+    background-color: rgb(227 237 246);
+    width: 100%;
+    height: 600px;
+}
+.banner-left-side{
+    width: 70%;
+    margin-top: 70px;
+}
+
+.banner-left-side p{
+    font-family: "Funnel Display", serif ;
+}
+.banner-left-side h2{
+    font-size: 3rem;
+        line-height: 1;
+        font-weight: 700;
+}
+.banner-left-side h4 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    font-family: "Funnel Display", serif ;
+}
+.banner-left-side button{
+    background-color: white;
+    color: black;
+    padding: 8px 20px;
+    transition: all .3s linear;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.banner-left-side button:hover{
+    color: white;
+    background-color: black;
+    
+}
+.hero-img img {
+    margin-left: auto !important;
+    
+}
+.services-conten {
+    background-color: #e4e4e46b;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.services-conten span{
+    font-size: 2.8rem;
+    margin-right: 10px;
+    margin-top: -7px;
+}
+.services .services-conten h2{
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+}
+.services .services-conten  p{
+    font-size: 1rem;
+    display: block;
+    margin: 0;
+}
+
