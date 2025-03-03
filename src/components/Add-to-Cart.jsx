@@ -43,7 +43,7 @@ function Cart() {
         <h4 className="text-center text-muted">Your Cart is Empty</h4>
       ) : (
         <div className="row mt-5">
-          <div className="col-md-8 border rounded-4 pt-4">
+          <div className="col-md-8 col-sm-12 border rounded-4 pt-4 mb-3 ">
             <table className="table table-hover align-middle border rounded-5">
               <thead className="table-secondary border ">
                 <tr>
@@ -97,7 +97,7 @@ function Cart() {
             </table>
           </div>
           {/* Order Summary */}
-          <div className="col-md-4">
+          <div className="col-md-4 col-sm-12">
             <div className=" border rounded-4  p-4 shadow">
               <h4 className="mb-3">Order Summary</h4> <hr />
               <p > 

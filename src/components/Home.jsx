@@ -1,7 +1,6 @@
 
 
 import React from 'react'
-import './Home.css'
 import hero from '../assets/images/hero.webp';
 import { RiRefund2Line } from "react-icons/ri";
 import { TbTruckDelivery } from "react-icons/tb";
@@ -24,8 +23,8 @@ function Home() {
                             </div>
                         </div>
                         <div className="col-12 col-lg-6 py-5">
-                            <div className='hero-img'>
-                                <img src={hero} alt="hero-image" />
+                            <div className='hero-img ' >
+                                <img src={hero} alt="hero-image" className='img-fluid' />
                             </div>
                         </div>
                     </div>

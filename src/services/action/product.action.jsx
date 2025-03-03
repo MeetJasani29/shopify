@@ -39,7 +39,6 @@ export const getProductsByCategory = (data) => {
 
 export const addToCart = (product) => (dispatch, getState) => {
     const state = getState();
-    console.log("Redux State Before Adding to Cart:", state);
     dispatch({
       type: "ADD_TO_CART",
       payload: { ...product, quantity: 1 },

@@ -18,7 +18,6 @@ export const authReducer = (state = initialState, action) => {
             };
 
             case "LOGIN_SUC":
-                console.log("User logged in successfully:", action.payload); 
                 sessionStorage.setItem("user", JSON.stringify(action.payload));
                 return {
                     ...state,

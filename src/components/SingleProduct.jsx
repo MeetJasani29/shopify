@@ -61,12 +61,12 @@ function SingleProduct() {
             <div className="row">
                 
                 {/* Product Image */}
-                <div className="col-md-4">
+                <div className="col-md-4 col-sm-6 col-12">
                     <img src={product.thumbnail} className="img-fluid" alt={product.title} />
                 </div>
 
                 {/* Product Details */}
-                <div className="col-md-4">
+                <div className="col-md-4 col-sm-6 col-12">
                     <h2>{product.title}</h2>
                     <h3 className="text-danger">${product.price}</h3>
                     <p className="text-muted m-0"> <strong>Category:</strong> {product.category}</p>
@@ -75,16 +75,16 @@ function SingleProduct() {
                     <h5>About the product</h5>
                     <p>{product.description}</p>
 
-                    <button className="btn btn-primary me-2" onClick={handleAddToCart}>
+                    <button className="btn btn-primary me-2 mb-4" onClick={handleAddToCart}>
                     <FaShoppingCart />
                     </button>
-                    <button className="btn btn-warning" onClick={goToCart}>
+                    <button className="btn btn-warning mb-4 " onClick={goToCart}>
                         Go to Cart
                     </button>
                 </div>
 
                 {/* Reviews Section */}
-                <div className="col-md-4">
+                <div className="col-md-4 col-sm-6 col-12 ">
                     <h3>Reviews</h3>
                     {product.reviews && product.reviews.length > 0 ? (
                         <ul className="list-group">

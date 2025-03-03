@@ -77,7 +77,7 @@ const CategoryProducts = () => {
       </h4>
 
       {categoryProducts.length === 0 ? (
-        <p>Loading products...</p>
+        <p >Loading products...</p>
       ) : (
         <div className="row">
           {categoryProducts.map((product) => (

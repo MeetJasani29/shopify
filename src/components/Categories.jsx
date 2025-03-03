@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { getAllCategoriesAsync } from "../services/action/product.action";
-import "./Categories.css"; 
+import "./Product.css"; 
 
 const Categories = () => {
   const dispatch = useDispatch();
